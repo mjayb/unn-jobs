@@ -144,10 +144,10 @@ STATIC_URL = 'static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-#S3 setup
-AWS_QUERYSTRING_AUTH=False
-DEFAULT_FILE_STORAGE = os.environ.get('DEFAULT_FILE_STORAGE')
-AWS_ACCESS_KEY_ID=os.environ.get('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY=os.environ.get('AWS_SECRET_ACCESS_KEY')
-AWS_STORAGE_BUCKET_NAME=os.environ.get('AWS_STORAGE_BUCKET_NAME')
+# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# #S3 setup
+# AWS_QUERYSTRING_AUTH=False
+# DEFAULT_FILE_STORAGE = os.environ.get('DEFAULT_FILE_STORAGE')
+# AWS_ACCESS_KEY_ID=os.environ.get('AWS_ACCESS_KEY_ID')
+# AWS_SECRET_ACCESS_KEY=os.environ.get('AWS_SECRET_ACCESS_KEY')
+# AWS_STORAGE_BUCKET_NAME=os.environ.get('AWS_STORAGE_BUCKET_NAME')
